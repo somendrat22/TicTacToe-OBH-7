@@ -8,9 +8,9 @@ import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) {
-//        AppBuilder appBuilder = new AppBuilder();
-//        GameController gameController = AppBuilder.getGameController();
-//        gameController.startGame();
+        AppBuilder appBuilder = new AppBuilder();
+        GameController gameController = AppBuilder.getGameController();
+        gameController.startGame();
 //        try{
 //            System.out.println(doArithmeticOperation(10, 0));
 //        }catch (NullPointerException surayanshu){
