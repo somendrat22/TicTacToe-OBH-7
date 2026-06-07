@@ -38,10 +38,5 @@ public class Main {
     }
 
 
-    public static int doArithmeticOperation(int x, int y) {
-        if (y == 0) {
-            throw new ArithmeticException("Randomly generaterd");
-        }
-        return x/y;
-    }
+   
 }
