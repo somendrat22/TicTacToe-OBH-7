@@ -25,15 +25,15 @@ public class Main {
 //
 //        }
 
-        NumberThread numberThread = new NumberThread();
-        Thread th = new Thread(numberThread);
-        th.start();
-
-        System.out.println("hello how are yoy ???/");
-
-        NameThread thread = new NameThread();
-        thread.start();
-        System.out.println("Hello bhaiya");
+//        NumberThread numberThread = new NumberThread();
+//        Thread th = new Thread(numberThread);
+//        th.start();
+//
+//        System.out.println("hello how are yoy ???/");
+//
+//        NameThread thread = new NameThread();
+//        thread.start();
+//        System.out.println("Hello bhaiya");
 
     }
 
