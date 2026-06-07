@@ -11,13 +11,13 @@ public class Main {
         AppBuilder appBuilder = new AppBuilder();
         GameController gameController = AppBuilder.getGameController();
         gameController.startGame();
-//        try{
-//            System.out.println(doArithmeticOperation(10, 0));
-//        }catch (NullPointerException surayanshu){
-//            System.out.println("Catched");
-//        }catch (InvalidCredentials e){
-//
-//        }
+        try{
+            System.out.println(doArithmeticOperation(10, 0));
+        }catch (NullPointerException surayanshu){
+            System.out.println("Catched");
+        }catch (InvalidCredentials e){
+
+        }
 //
 //        try{
 //            doArithmeticOperation(10, 0);
